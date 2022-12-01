@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&family=Open+Sans:wght@400;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+body{
+    background: hsl(217, 28%, 15%);
+    /* overflow: hidden; */
+}
+nav{
+    display: flex;
+    margin: 2% 5% 0 5%;
+}
+.top-right{
+    margin-left: auto;
+}
+ul{
+    display: flex;
+}
+li{
+    padding: 0 25px 0 25px;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+a:hover{
+    cursor: pointer;
+    color: #000;
+}

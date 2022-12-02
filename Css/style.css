@@ -1,13 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&family=Open+Sans:wght@400;700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&family=Open+Sans:wght@400;700&display=swap'); */
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+
 }
 body{
     background: hsl(217, 28%, 15%);
     /* overflow: hidden; */
+}
+.container-fluid{
+    background: hsl(217, 28%, 15%);
+}
+.navbar{
+    background: hsl(217, 28%, 15%) !important;
+
 }
 nav{
     display: flex;
@@ -32,3 +41,25 @@ a:hover{
     cursor: pointer;
     color: #000;
 }
+
+/* main */
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+}
+.paragraph{
+    max-width: 20%;
+}
+.button {
+    border: none;
+    outline: none;
+    background: rgb(101,226,217);
+    background: linear-gradient(86deg, rgba(101,226,217,1) 4%, rgba(51,158,204,1) 88%);
+    color: white;
+    padding: 0.7em 5em;
+    border-radius: 25px;
+    transition: all 180ms ease;
+    }

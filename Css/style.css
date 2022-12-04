@@ -52,6 +52,7 @@ a:hover{
 }
 .paragraph{
     max-width: 20%;
+    
 }
 .button {
     border: none;
@@ -63,3 +64,16 @@ a:hover{
     border-radius: 25px;
     transition: all 180ms ease;
     }
+
+
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2%;
+}
+.card{
+    background-color: #181f2a;
+    border: none;
+    outline: none;
+    color: #fff;
+}

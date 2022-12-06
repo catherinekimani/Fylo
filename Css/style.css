@@ -77,3 +77,21 @@ a:hover{
     outline: none;
     color: #fff;
 }
+.sectionc{
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    padding: 5% 10%;
+}
+.texts h3{
+    font-size: 6rem;
+    font-weight: bold;
+}
+.texts p{
+    font-size: 2rem;
+}
+
+.texts a{
+    color: hsl(176, 68%, 64%);
+    text-decoration: underline;
+}
